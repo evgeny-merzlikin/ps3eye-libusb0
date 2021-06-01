@@ -1,0 +1,18 @@
+﻿Build started 02.03.2021 10:37:58.
+     1>Project "G:\C++\projects\ps3eye-libusb0 - main\ps3eye-lib\ps3eye-lib.vcxproj" on node 2 (Rebuild target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I"G:\C++\projects\ps3eye-libusb0 - main\ps3eye-lib\\include\libusb0" /I"G:\C++\projects\ps3eye-libusb0 - main\ps3eye-lib\\include" /ZI /nologo /W3 /WX- /Od /Oy- /D DLL_EXPORT /D _WINDLL /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"G:\C++\projects\ps3eye-libusb0 - main\ps3eye-lib\build\Win32 Debug\temp\\" /Fd"G:\C++\projects\ps3eye-libusb0 - main\ps3eye-lib\build\Win32 Debug\temp\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt sources\ps3eye.cpp sources\ps3eye_capi.cpp
+         ps3eye_capi.cpp
+         ps3eye.cpp
+     1>g:\c++\projects\ps3eye-libusb0 - main\ps3eye-lib\sources\ps3eye.cpp(1075): warning C4101: 'sensor_id' : unreferenced local variable
+         Generating Code...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"G:\C++\projects\ps3eye-libusb0 - main\ps3eye-lib\build\Win32 Debug\ps3eye-lib.dll" /INCREMENTAL /NOLOGO /LIBPATH:"G:\C++\projects\ps3eye-libusb0 - main\ps3eye-lib\lib\libusb0-win32\Win32\Debug\libusb0" libusb0d.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"G:\C++\projects\ps3eye-libusb0 - main\ps3eye-lib\build\Win32 Debug\ps3eye-lib.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"G:\C++\projects\ps3eye-libusb0 - main\ps3eye-lib\build\Win32 Debug\ps3eye-lib.lib" /MACHINE:X86 /DLL "G:\C++\projects\ps3eye-libusb0 - main\ps3eye-lib\build\Win32 Debug\temp\ps3eye.obj"
+         "G:\C++\projects\ps3eye-libusb0 - main\ps3eye-lib\build\Win32 Debug\temp\ps3eye_capi.obj"
+            Creating library G:\C++\projects\ps3eye-libusb0 - main\ps3eye-lib\build\Win32 Debug\ps3eye-lib.lib and object G:\C++\projects\ps3eye-libusb0 - main\ps3eye-lib\build\Win32 Debug\ps3eye-lib.exp
+         ps3eye-lib.vcxproj -> G:\C++\projects\ps3eye-libusb0 - main\ps3eye-lib\build\Win32 Debug\ps3eye-lib.dll
+     1>Done Building Project "G:\C++\projects\ps3eye-libusb0 - main\ps3eye-lib\ps3eye-lib.vcxproj" (Rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:04.46

@@ -1,0 +1,29 @@
+﻿Build started 15.04.2017 16:26:57.
+     1>Project "D:\projects\ps3eye\libusb\projects\libusb-dll.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I..\src /I..\src\driver /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D _WIN32_WINNT=0x0500 /D "LOG_APPNAME=\"libusb0\"" /D TARGETTYPE=DYNLINK /D _WINDLL /D _MBCS /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"D:\projects\ps3eye\libusb\projects\Win32\Release\libusb0\\" /Fd"D:\projects\ps3eye\libusb\projects\Win32\Release\libusb0\vc110.pdb" /Gd /TC /wd4996 /analyze- /errorReport:prompt ..\src\descriptors.c ..\src\error.c ..\src\install.c ..\src\registry.c ..\src\usb.c ..\src\windows.c
+         descriptors.c
+         error.c
+         install.c
+         registry.c
+         usb.c
+         windows.c
+       ResourceCompile:
+         C:\Program Files\Windows Kits\8.0\bin\x86\rc.exe /D "LOG_APPNAME=\"libusb0\"" /l"0x0409" /I..\src /nologo /fo"D:\projects\ps3eye\libusb\projects\Win32\Release\libusb0\resource.res" ..\src\resource.rc 
+       Link:
+         C:\Program Files\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\projects\ps3eye\libusb\projects\Win32\Release\libusb0\libusb0.dll" /NOLOGO setupapi.lib kernel32.lib advapi32.lib user32.lib shell32.lib gdi32.lib /DEF:"..\libusb0.def" /MANIFEST:NO /DEBUG /PDB:"D:\projects\ps3eye\libusb\projects\Win32\Release\libusb0\libusb0.pdb" /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\projects\ps3eye\libusb\projects\Win32\Release\libusb0\libusb0.lib" /MACHINE:X86 /SAFESEH /DLL D:\projects\ps3eye\libusb\projects\Win32\Release\libusb0\resource.res
+         D:\projects\ps3eye\libusb\projects\Win32\Release\libusb0\descriptors.obj
+         D:\projects\ps3eye\libusb\projects\Win32\Release\libusb0\error.obj
+         D:\projects\ps3eye\libusb\projects\Win32\Release\libusb0\install.obj
+         D:\projects\ps3eye\libusb\projects\Win32\Release\libusb0\registry.obj
+         D:\projects\ps3eye\libusb\projects\Win32\Release\libusb0\usb.obj
+         D:\projects\ps3eye\libusb\projects\Win32\Release\libusb0\windows.obj
+            Creating library D:\projects\ps3eye\libusb\projects\Win32\Release\libusb0\libusb0.lib and object D:\projects\ps3eye\libusb\projects\Win32\Release\libusb0\libusb0.exp
+         Generating code
+         Finished generating code
+         libusb-dll.vcxproj -> D:\projects\ps3eye\libusb\projects\Win32\Release\libusb0\libusb0.dll
+     1>Done Building Project "D:\projects\ps3eye\libusb\projects\libusb-dll.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:10.80

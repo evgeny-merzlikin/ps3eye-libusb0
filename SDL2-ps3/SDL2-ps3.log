@@ -1,0 +1,15 @@
+﻿Build started 01.06.2021 11:51:07.
+     1>Project "G:\C++\projects\ps3eye-libusb0 - main\SDL2-ps3\SDL2-ps3.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W1 /WX- /Od /Oy- /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"G:\C++\projects\ps3eye-libusb0 - main\SDL2-ps3\build\Win32 Debug\temp\\" /Fd"G:\C++\projects\ps3eye-libusb0 - main\SDL2-ps3\build\Win32 Debug\temp\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt sources\SDLmain.cpp
+         SDLmain.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"G:\C++\projects\ps3eye-libusb0 - main\SDL2-ps3\build\Win32 Debug\SDL2-test.exe" /INCREMENTAL /NOLOGO libusb0d.lib SDL2.lib SDL2Main.lib opengl32.lib Shell32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"G:\C++\projects\ps3eye-libusb0 - main\SDL2-ps3\build\Win32 Debug\SDL2-test.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"G:\C++\projects\ps3eye-libusb0 - main\SDL2-ps3\build\Win32 Debug\SDL2-test.lib" /MACHINE:X86 "G:\C++\projects\ps3eye-libusb0 - main\SDL2-ps3\build\Win32 Debug\temp\ps3eye.obj"
+         "G:\C++\projects\ps3eye-libusb0 - main\SDL2-ps3\build\Win32 Debug\temp\ps3eye_capi.obj"
+         "G:\C++\projects\ps3eye-libusb0 - main\SDL2-ps3\build\Win32 Debug\temp\SDLmain.obj"
+         SDL2-ps3.vcxproj -> G:\C++\projects\ps3eye-libusb0 - main\SDL2-ps3\build\Win32 Debug\SDL2-test.exe
+     1>Done Building Project "G:\C++\projects\ps3eye-libusb0 - main\SDL2-ps3\SDL2-ps3.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.34
